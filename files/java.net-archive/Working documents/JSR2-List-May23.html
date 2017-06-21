@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>JCP.next JSR2 list: May 23 2011</title>
+<style type="text/css">
+<!--
+.highlight {
+	background-color: #FFFF00;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1>JCP.next JSR2 list of proposed changes </h1>
+<p><em>Updated May 23 2011</em></p>
+<h2>Categories</h2>
+<ul>
+  
+  <li><a href="#Transparency">Transparency</a></li>
+  <li><a href="#Participation">Participation</a></li>
+  <li><a href="#Agility">Agility</a></li>
+  <li><a href="#IPflow">IP flow</a></li>
+  <li><a href="#Licensing">Licensing</a></li>
+  <li><a href="#LegalIssues">Legal issues</a></li>
+  <li><a href="#Collaboration">Collaboration</a></li>
+  <li><a href="#Fees">Fee structure</a></li>
+  <li><a href="#Cleanup">Cleanup</a></li>
+  <li><a href="#Other">Other</a></li>
+</ul>
+<h2><a name="Transparency" id="Transparency"></a>Transparency</h2>
+<h3>Expert Group transparency </h3>
+<ul><li>Eliminate confidentiality language from the JSPA.
+    <ul>
+      <li>We have draft language (from the JSR 306 draft)</li>
+    </ul>
+</li>
+</ul>
+<h3>Executive Committee transparency </h3>
+<ul>
+  <li>(Overflow from JSR1 if necessary.)
+</ul>
+<h3>License transparency</h3>
+<ul>
+  <li>(Overflow from JSR1 if necessary.)</li>
+</ul>
+<h3>TCK transparency</h3>
+<ul>
+  <li><strong>Changes discussed but not incorporated into JSR1</strong></li>
+  <ul>
+    <li>Publish lists of incompatible implementations.
+      <ul>
+          <li>This is legally risky, and unnecessary (the list of incompatible
+            implementations can be derived from the list of compatible implementations.)</li>
+      </ul>
+    </li>
+    <li>Publish information about optional features that are implemented.
+      <ul>
+          <li>This would be difficult to implement (what level of granularity
+            would we choose?)</li>
+      </ul>
+    </li>
+    <li>Strengthen the TCK quality requirements
+      <ul>
+          <li>Before we do, make sure we're effectively policing existing requirements</li>
+      </ul>
+    </li>
+    <li>Require more formal reporting requirements for conformance claims.
+      <ul>
+          <li>Would require generalizing compatibility requirements.</li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<h3>IP flow transparency</h3>
+<ul>
+  <li>(Overflow from JSR1 if necessary.) </li>
+</ul>
+<h2><a name="Participation" id="Participation"></a>Participation</h2>
+  <ul>
+    <li>Make the JSPA less intimidating by refactoring into three layers
+      <ul>
+        <li>Simple Terms Of Use for non-members who wish to comment on
+          specs in public forums.</li>
+        <li>A simple membership agreement for those who want voting privileges
+          and the right to serve on Expert Groups.</li>
+        <li>The complexities of IP and compatibility obligations are
+          required only for Spec Leads &ndash; factor these out into
+          a separate agreement.</li>
+      </ul>
+    </li>
+  </ul>
+<h2><a name="Agility" id="Agility"></a>Agility</h2>
+  <ul><li>&nbsp;Enable implementations before specs are finalized, to gain
+      real-world experience.
+    <ul>
+      <li>Must maintain compatibility.<br />
+      </li>
+      <li>See <em>Transplant JSR proposals</em></li>
+      <li>Must declare during JSR submission
+          that this <strong>is</strong> a Transplant JSR or that it
+          will become one if the JSR doesn't complete within 3 years.
+            <ul>
+              <li>The &quot;it will become one&quot; addition is new
+                - need to revise the existing language. </li>
+            </ul>
+      </li>
+    </ul>
+    </li>
+</ul>
+<h2><a name="IPflow" id="IPflow"></a>IP flow </h2>
+  <ul>
+    <li>Non-assertion patent covenant.
+      <ul>
+        <li>We have draft language. Patrick to circulate this and ask
+          people to get their lawyers to comment </li>
+        <li>May need to add wording to ensure that the non-assert promise transfers
+          with IP ownership. </li>
+      </ul>
+    </li>
+    <li>Should people be permitted to withdraw their
+        IP grants? At any time?
+      <ul>
+        <li>JSPA Section 4D D. <em>Withdrawal of Contributions due to Change
+            in Announced License Terms</em> says Yes. </li>
+        <li>Review this language - make sure
+        it's consistent with possibly-changed processes. </li>
+      </ul>
+    </li>
+    <li>Fix potential issues with <em>JSPA Exhibit B</em>.
+      <ul>
+        <li>Needs legal review</li>
+        <li>TODO: Oracle to start this </li>
+        <li>Others should feel free to offer suggestions. </li>
+        <li>Clarify what is a &quot;duly authorized representative of Employer.&quot;
+          <ul>
+            <li>Replace &quot;Employer&quot; with &quot;Assignee&quot;</li>
+          </ul>
+        </li>
+        <li>Implementation issues:
+          <ul>
+            <li>People change employers
+              <ul>
+                <li>Require individuals to &quot;re-confirm&quot; their membership
+                  each year and at that point to confirm that the Exhibit
+                  B is still valid or submit a new one.</li>
+                <li>PMO to require a current Exhibit B whenever an individual
+                  (or someone associated with a group where there is
+                  not an employer-employee relationship joins an EG.</li>
+              </ul>
+            </li>
+            <li>What about members of groups where there is no employer
+              relationship?
+              <ul>
+                <li>Eg JUG, research institution, university, open source
+                  community.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+</ul>
+<h2><a name="Licensing" id="Licensing"></a>Licensing</h2>
+  <ul>
+    <li>Define a mandatory standard Spec License.
+      <ul>
+        <li>TODO: Patrick to circulate the &quot;recommended&quot; Spec
+          License for comments. </li>
+      </ul>
+    </li>
+    <li>Recommend (but do not require) standard RI and TCK licenses.
+      <ul>
+        <li>Provide separate templates for Independent (open source)
+          and commercial implementors.</li>
+        <li>TODO: Patrick to circulate examples for discussion </li>
+      </ul>
+    </li>
+  </ul>
+<h2><a name="LegalIssues" id="LegalIssues"></a>Legal issues </h2>
+  <ul>
+    <li>Clarifiy the JSPA as discussed within
+      the EC.
+      <ul>
+        <li>Members will be asked to sign the new/revised JSPA (resulting
+          from JSR2) - some may insist on this clarification at that
+          point.</li>
+        <li>Modified JSPA should not grant rights to one player that
+          others don't have. </li>
+      </ul>
+    </li>
+    <li>Address the issue of where litigation should be located. California,
+      or elsewhere?
+      <ul>
+        <li>California is an obstacle to Brazilian state involvement. </li>
+        <li>According to Java Champion Douglas Jenssen this is also an
+          issue within the US. He has said in private mail:
+          &quot;The issue is a legal one, where do legal disputes between
+          Sun/Oracle and a member -- whether individual, sponsored by
+          his employer, or corporation -- get litigated. When I last
+          met with the JCP, the answer was it has to be in California.
+          No public institution such as a state university is going to
+          agree to that, and many corporations will not agree either.
+          Hence I was told there are no members from public universities,
+          only from private ones that choose to agree.&quot;</li>
+        <li>The JSPA says: &quot;Any action related to this Agreement
+          will be governed by California law, excluding <a href="http://en.wikipedia.org/wiki/Choice_of_law">choice
+            of law rules</a>, provided, however that neither party has
+          consented to the jurisdiction of any court located in the
+          other party&acute;s country
+          of incorporation.&quot;</li>
+      </ul>
+    </li>
+</ul>
+  <h2><a name="Collaboration" id="Collaboration"></a>Collaboration</h2>
+  <ul>
+    <li>Changes to make it easier to collaborate with other standards-setting
+      organizations</li>
+    <li>Incorporate the <em>Hybrid</em> and <em>Transplant</em> JSR proposals
+      from JSR 306. .,
+      <ul>
+        <li><em>Transplant JSRs</em> (enable incorporation and standardization
+          of work developed outside the JCP)</li>
+        <li><em>Hybrid JSRs</em> (allowing non-Java implementations of a JSR's
+          specification)</li>
+      </ul>
+</li>
+  </ul>
+  <h2><a name="Fees" id="Fees"></a>Fee structure </h2>
+  <ul><li>Modify cost structure (in JSPA) to permit PMO to charge a nominal fee
+      for individuals if this should prove necessary.
+    <ul>
+      <li>Eg, &quot;fees for individuals are $250 per year... Fees may be waived
+        at the discretion of the PMO.&quot;</li>
+    </ul>
+    </li>
+    <li>Iincrease fees for commercial entities?</li>
+    <li>Explicitly place JUGs in the same category as individuals.  </li>
+  </ul>
+<h2><a name="Cleanup" id="Cleanup"></a>Cleanup</h2>
+  <ul>
+    <li>Phase-out the IEPA provisions (no longer used.)
+      <ul>
+        <li>IEPA agreements never expire - we need to deal with this.</li>
+        <li>Encourage existing IEPA members to &quot;resign&quot; or
+          to become full members.
+          <ul>
+            <li>There aren't very many of them, so hopefully the PMO
+              can handle this.</li>
+          </ul>
+        </li>
+        <li>Remove references to IEPA from JSPA.
+          <ul>
+            <li>Need legal approval for this. </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Clarify that a binary RI must be released by Spec Lead. </li>
+  </ul>
+<h2><a name="Other" id="Other"></a>Other</h2>
+<ul>
+  <li><strong>Governance
+    </strong>
+    <ul>
+      <li>Create an <em>Architecture Council?</em>
+        <ul>
+          <li>Council would gather input from implementors, developers, and users
+            and to provide guidance to Platform Expert Groups on platform evolution
+            in the interests of maintaining competitiveness, compatibility and
+            relevance. </li>
+          <li>The membership of this group should be primarily technical,
+            and it must operate by consensus and through negotiation with the
+            Platform Spec Leads. </li>
+          <li>Possible deliverables for the Council:
+            <ul>
+              <li>Yearly survey
+                of the community</li>
+              <li>Written responses to Platform JSRs.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h2>Procedural issues</h2>
+<ul>
+    <li><strong>When will the changes in the JSPA take effect? </strong>
+      <ul>
+        <li>We can not require that an existing JSR be ruled by new version
+          of the JSPA. </li>
+        <li>Currently there is no requirement that members upgrade to the latest
+          JSPA.
+          <ul>
+            <li>Note that section 2B uses the term &quot;expires&quot; but
+              it seems there is no way for a JSPA to expire (merely &quot;terminate&quot;)
+              - we should fix this,</li>
+          </ul>
+        </li>
+        <li>Will the new version be version 3 (containing significant legal
+          changes?)
+          <ul>
+            <li>Presumably yes - otherwise why make the effort to modify it?</li>
+            <li>If so, we want people to upgrade - all members should be operating
+              under similar IP grants.</li>
+          </ul>
+        </li>
+        <li><strong>Recommendation: </strong>
+          <ul>
+            <li>Specify a lengthy transition period (two years?) with a common
+              deadline, allowing ample time for review. </li>
+            <li>All new JSRs must adopt the latest JSPA. This implies that
+              the Spec Lead and EG members must sign it when the JSR is submitted. </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><strong>The JSPA also forbids us from applying changes to JSRs that are in-progress</strong>
+      <ul>
+        <li>&quot;The Process is described on the JCP Web Site (at http:/jcp.org),
+          and may be revised from time to time in accordance with terms set
+          forth in the Process document, provided that no such revisions shall
+          apply to any JSR that has already been approved for development.&quot; </li>
+        <li><strong>Recommendation:</strong>
+                <ul>
+                  <li>Modify this language to give us the power
+                    to apply Process Doc changes to in-flight JSRs.
+                    <ul>
+                      <li>This wouldn't require us to do so, just make it possible
+                        if we wish. </li>
+                      <li>The language should specify that at the EC's discretion
+                        some or all of the requirements of the Process Document
+                        will apply to all JSRs when they next make a formal state-change
+                        through the process</li>
+                    </ul>
+                  </li>
+                </ul>
+        </li>
+      </ul>
+    </li>
+</ul>
+  <h3>&nbsp;</h3>
+</body>
+</html>

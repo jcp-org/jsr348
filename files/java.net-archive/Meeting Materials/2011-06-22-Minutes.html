@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<title>JSR 348 Working Group minutes: June 15, 2011</title>
+<style type="text/css">
+<!--
+.highlight {	background-color: #FFFF00;
+}
+-->
+</style>
+</head>
+<body>
+<h1 align="center">Minutes of JSR 348 Working Group Meeting <br>
+22 June 2011</h1>
+
+<h2>Meeting details</h2>
+<ul>
+  <li>Date
+    &amp; Time
+    <ul>
+           <li>Wednesday June 22, 2011, 8:00 - 9:00 am Pacific time<br />
+      </li>
+    </ul>
+  </li>
+  <li>Teleconference</li>
+</ul>
+<h2>Attendees</h2>
+<ul>
+  <li>Patrick Curran</li>
+  <li>Eduardo Gutentag</li>
+  <li>John Rizzo</li>
+  <li>Mike DeNicola</li>
+  <li>Werner Keil </li>
+</ul>
+<h2><strong>Agenda</strong></h2>
+<ul>
+  <li>Review <a href="http://java.net/downloads/jsr348/Meeting Materials/2011-06-15-Minutes.html">minutes</a> from
+    last week's meeting.</li>
+  <li>Status of alias problem.</li>
+  <li>Report from Eduardo on state of updated docs. </li>
+  <li>Review suggested changes submitted to date, identifying and focusing on
+    those that do not have consensus.
+    <ul>
+        <li>If possible use updated docs from Eduardo.</li>
+    </ul>
+  </li>
+  <li>See updated <a href="http://java.net/projects/jsr348/downloads/download/Working%20documents/JSR1-list-June21.html">JSR1
+      list</a> for items still open.
+    <ul>
+        <li>NOTE: this will be changing up until the time of the meeting. </li>
+    </ul>
+  </li>
+  <li> Review scheduleand milestones.</li>
+  <li>Next steps.</li>
+</ul>
+<h2><strong>Minutes</strong></h2>
+<h3>Review minutes from
+    last week's meeting</h3>
+<p>Last week's  <a href="http://java.net/downloads/jsr348/Meeting Materials/2011-06-15-Minutes.html">minutes</a> were
+approved. </p>
+<h3>Status of the alias problem</h3>
+<p>Patrick reported (as he had via email) that we have a workaround for the java.net
+  bug. (Members should use the jsr348-experts@jcp.org alias instead of experts@jsr348.java.net.)
+  He reminded people to check the &quot;to&quot; address when replying to older messages,
+  and to change it if necessary. He also reminded members that those who aren't
+  subscribed to the Observers alias will receive  a notice saying that their
+  message has been forwarded for moderation (for <em>Observers</em>) whenever they post
+  to <em>Experts</em>. These messages can be ignored (Patrick will approve the posting.)</p>
+<p>The underlying java.net bug is expected to be fixed in the next few
+weeks. Patrick will report when it is safe to return to using the original alias. </p>
+<h3>Report from Eduardo on state of updated docs</h3>
+<p>Eduardo reported that the latest documents incorporate almost all changes
+  where we had reasonable consensus. He noted that where he had presented alternatives
+  there had been no feedback. (These were addressed and resolved at this meeting
+  - see below.) He did not incorporate unresolved issues (eg Scott's suggested
+  change for Maintenance Release process.) Still todo: the escalation and appeals
+  process.</p>
+<p>John asked whether we  planned to submit the alternatives to the larger
+  EG and ask them to choose.</p>
+<p>Patrick and Mike suggested that the Working Group should try to reach consensus
+  and make specific recommendations to the full EG if at all possible.</p>
+<h3>When to use the issue tracker? </h3>
+<p>Patrick suggested that it was probably getting very difficult for Eduardo
+  to track all the suggested changes on the alias, and wondered when we should
+  start using the issue-tracker. Eduardo agreed that it was getting difficult.
+  Patrick suggested switching to the issue-tracker after EDR. He promised to
+  help Eduardo to track status by maintaining the JSR1 list and its embedded
+  statuses and action items. </p>
+<h3>Review suggested changes submitted to date, identifying and focusing on
+    those that do not have consensus</h3>
+<p>Patrick explained that he had color-coded the <a href="http://java.net/projects/jsr348/downloads/download/Working%20documents/JSR1-list-June21.html">JSR1
+    list</a>, indicating which
+  items still needed work (in yellow) and where we still didn't have consensus
+  (in red.) We agreed to focus in this meeting on the <em><strong>red</strong></em> items. </p>
+<p><em><strong>Requirement to offer TCK licenses &quot;for ever&quot; </strong></em></p>
+<p>John raised a concern about the difficulty of  maintaining TCK licenses
+  when the Spec Lead takes over RI &amp; TCK from another. Patrick responded that
+  this seemed something of a corner-case, but asked John to send a note to the
+  alias so we have this on record. John responded that this is fairly common
+  in the ME space. He agreed to send a message to the alias.</p>
+<p><strong><em>Uncooperative/unresponsive 
+EG member/Spec Lead</em></strong></p>
+<p>Eduardo will add <strong><em>disruptive</em></strong> to the label for the EG-member problem.</p>
+<p>We discussed the two alternatives offered for each of these cases: a 2/3  majority
+  vote of EC members or  &quot;three members may petition the EC.&quot; We agreed that
+  we prefer the latter approach, and noted that we need to factor in an appeals
+  process in the case where an EG member is removed from the group. (If the EC
+  decides to remove a Spec Lead there will beno appeal.)</p>
+<p><em><strong>Escalation and appeals process</strong></em></p>
+<p>Patrick asked whether  we should define a general process that can be used
+  under any circumstances or whether we should limit its use to particular cases.
+  Eduardo inclines towards the general approach. He agreed to draft some text
+  permitting Members (EG Members?) to appeal any decision by a Spec Lead, Maintenance
+  Lead, or the PMO. We discussed whether a member should be able to appeal individually,
+  or whether we should require three. </p>
+<p>We noted that when the offended party is a corporation it might be difficult
+  for business reasons (and therefore unreasonble) to obtain the support of others.
+  (For example, one company should be able to appeal against an unresponsive
+  Maintenance Lead who doesn't respond to requests to license the TCK.) We could
+  not decide whether an individual EG member who felt discriminated against would
+  be required to enlist the support of two other members in order to appeal. </p>
+<p>Eduardo agreed to draft some language for further review. </p>
+<p><strong><em>Terms of Use for Collaboration software </em></strong></p>
+<p>Patrick reported that he had a brief (impromptu) discussion on this issue
+  internally, and that the conclusion was that it  would
+  not be appropriate for a legal team to &quot;approve&quot; the Terms of Use for any collaboration
+  software that they had no control over (this could be a legal liablility.)
+  Even if we were to try to do so, Terms of Use can change at any time, making
+  it effectively impossible. Instead, we'll probably need to take a &quot;Caveat Emptor&quot;
+  approach, reminding Spec Leads that they have legal obligations under the JSPA
+  that could be compromised if they accept contributions from people who have
+  not signed the JSPA or some other Contributor Agreement. Each Spec Lead already
+  must manage this risk, and should continue to do so.</p>
+<p>Patrick explained the direction (write up later.)   </p>
+<p>John suggested that if this is the direction we propose to take then the Spec
+  Lead should assert in the JSR submission that they understand the risks and
+  accept responsibility. </p>
+<p>Patrick agreed to draft something very high level for EDR, recognizing that
+  it would need to be refined later after discussion with Legal.</p>
+<strong><em>Clarification of the Maintenance process </em></strong>
+<p>Since Scott is out for the next week Patrick agreed to follow up his recent
+  alias message with a specific suggestion for changes.</p>
+<em><strong>Naming the JSR stages </strong></em>
+<p>Eduardo agreed to respond to Don's recent message with some specific suggestions. </p>
+<em><strong>Facilitiating the EC merge</strong></em>
+<p>We discussed Patrick's recent message to the alias - specifically noting that
+  we don't need to make all necessary changes to the Process Document now since
+  we can do a JSR next year just to handle an EC merge. Eduardo agreed to clean
+  the documents up, and to insert some language warning EC members elected after
+  this version of the Process goes into effect that the 
+  terms of their membership are subject to change in the near future.</p>
+<em><strong>Confusion over the terms member (corporate, organizational, or individual)
+  and &quot;representative of member&quot; </strong></em>
+<p>Patrick noted that there is confusion over the term Member (whether corporate,
+organizational, or individual) and over the role of those who are &quot;employed by
+  or associated with&quot; corporate or institutional members. This requires convoluted
+  language in various parts of the document. If we had formal definitions for
+  each of these terms it might help. Possible terms are:</p>
+<ul>
+  <li>Member (already defined as &quot;A company, organization, or individual that
+  has signed the JSPA and is abiding by its terms&quot;)</li>
+  <li>Individual (not needed?) </li>
+  <li>Associate Member (someone employed by a corporate Member or associated
+    with an organizational  Member and authorized to represent them?) </li>
+</ul>
+<p>We agreed to further discussion on the alias, recognizing that we might not
+  complete this by EDR.</p>
+<h3>Milestones and next steps </h3>
+<em><strong>From the June 8 minutes </strong></em>
+<ul>
+  <li>June 15 First cut/feedback on each section from assignees </li>
+  <li>June 22 Refine/complete (Eduardo will have integrated suggestions) </li>
+  <li>June 29 Earl draft ready for review</li>
+  <li>July 6 Finish/polish EDR for submission to full EG at July 12 meeting </li>
+  <li>July 12 EC meeting</li>
+</ul>
+<p>Note: Scott will miss the June 15 and June 22 meetings,
+    Eduardo will miss June 29, and possibly July 6, and Patrick will miss July
+    6.</p>
+<p>Patrick will take over Eduardo's editing duties at the end of this week. We
+  will aim to finish up major tasks at next week's meeting. </p>
+<p>Mike will email all EG members asking them to review the current documents,
+  to raise any concerns now, and to attend next week's meeting if they have concerns.
+  We don't want major &quot;surprises&quot; at the July 12 EC meeting. </p>
+<h3>&nbsp;</h3>
+<blockquote></blockquote>
+<blockquote>&nbsp;</blockquote>
+</body>
+</html>

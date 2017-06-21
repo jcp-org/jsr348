@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>JCP.next JSR1 list:June 21 2011</title>
+<style type="text/css">
+<!--
+.highlight {
+	background-color: #FFFF00;
+}
+.red {
+	background-color: #FF9999;
+}
+.yellow {
+	background-color: #FFFF00;
+}
+.green {
+	background-color: #66FF33;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1>JCP.next JSR1 list of proposed changes </h1>
+<p><em>Updated June 27 2011</em></p>
+<p><em>Changes since last release</em></p>
+<ul>
+  <li><em>Updated tasks</em></li>
+  <li><em>Added Red/Yellow/Green color-coding </em> </li>
+</ul>
+<h2>Documents to be modified</h2>
+<ul><li>The Process Document
+    <ul>
+      <li>Normative</li>
+    </ul>
+  </li>
+  <li>The EC Members' Guide
+    <ul>
+      <li>Create a normative <em>EC Standing Rules </em>document from
+        Appendix A of the Process Document and the currently
+        non-normative EC Members Guide.</li>
+      <li>This will be referenced from the Process Doc and will address issues
+        such as:
+        <ul>
+          <li>Meeting schedules, quorum requirements. </li>
+          <li>Voting procedures. </li>
+          <li>Publish EC meeting agenda in advance. </li>
+          <li>Specify whether agenda items are for discussion or for action.</li>
+        </ul>
+      </li>
+      <li>NOTE: once created, this document will not require a new JSR to modify
+        - instead this can be  by a vote of the ECs after a one-month review
+        period. </li>
+    </ul>
+  </li>
+  <li>The Spec Lead Guide
+    <ul>
+      <li>Non-normative: referenced from Process Document</li>
+    </ul>
+  </li>
+</ul>
+<h2>Procedural issues</h2>
+<ul>
+  <li><strong>When will the changes in the Process Document take effect? </strong>
+      <ul>
+        <li>The JSPA currently prohibits us from applying Process Document changes
+          to JSRs that are in progress:
+          <ul>
+              <li>&quot;The Process is described on the JCP Web Site (at http:/jcp.org),
+                and may be revised from time to time in accordance with terms
+                set forth in the Process document, provided that no such revisions
+                shall apply to any JSR that has already been approved for development.&quot; </li>
+            <li>We may fix this in JSR2 but for now we'll need to apply <em>moral
+                pressure</em> to in-flight JSRs to adopt the new procedures.</li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+</ul>
+<h2>Categories</h2>
+<ul>
+  <li><a href="#Transparency">Transparency</a></li>
+  <li><a href="#Participation">Participation</a></li>
+  <li><a href="#Agility">Agility</a></li>
+  <li><a href="#ECmerge">Facilitating the EC merge</a> </li>
+  <li><a href="#Cleanup">Cleanup</a></li>
+</ul>
+<h2>Annotation Key </h2>
+<ul>
+  <li><strong>DONE:</strong> we have suggested wording, and we seem to have broad
+    consensus. (This doesn't mean that we won't tweak it later - just that it
+    seems to be good enough for EDR.)</li>
+  <li><strong>IN PROGRESS :</strong> we have suggested wording, but do not yet
+    have consensus and are still discussing.</li>
+  <li><strong>WAITING:</strong> waiting for suggested wording.  </li>
+  <li><strong>FURTHER CHANGE REQUIRED</strong>: we have a first draft, but it
+  needs revision. </li>
+  <li><strong>TBD</strong>: we haven't yet decided whether to include this item. </li>
+  <li><strong>CANCELLED:</strong> we decided to drop this item.</li>
+</ul>
+<ul>
+  <li><span class="green"><strong>GREEN:</strong></span> OK for EDR </li>
+  <li><strong class="yellow">YELLOW:</strong> On track for EDR</li>
+  <li><strong class="red">RED</strong>: More discussion needed </li>
+</ul>
+<h2><a name="Transparency" id="Transparency"></a>1.Transparency</h2>
+<h3>1.1 Expert Group transparency</h3>
+<ul>
+  <li>Draft language required for the Process
+        Document<em>. </em>(Alex)      
+        <ul>
+          <li><span class="green">1.1.1 All significant business must be
+              carried out on public mailing lists. (Alex)</span><strong> DONE </strong>
+              <ul>
+               <li>EG-private mailing list may be maintained for administrative matters. </li>
+            </ul>
+          </li>
+        </ul>
+  </li>
+  <ul>
+    <li><span class="green">1.1.2 Issues must be tracked through a publicly
+        viewable issue tracking mechanism. (Alex)</span> <strong>DONE  </strong></li>
+    <li><span class="green">1.1.3 Expert Groups must respond publicly to
+        all comments before JSRs can move to the next stage. (Alex)</span><strong> DONE </strong>
+        <ul>
+        <li>We have language requiring comments to be published, but not requiring
+          responses - this must be tightened up. </li>
+      </ul>
+    </li>
+    <li>Given the existing structure of the document, this new
+    language won't easily fit  anywhere. </li>
+    <li><span class="green">1.1.4 Add <strong><em>Section 0/General
+      Procedures</em></strong> that
+      apply to all of the subsequently-described stages, to avoid duplication.(Patrick)</span> <strong>DONE</strong></li>
+    <li><span class="green">1.1.5 In light of the above changes section 2.1.1
+        Freedom of Working Style will need to be rewritten. (Alex)</span> <strong>DONE</strong>
+        <ul>
+        <li>EGs are  no longer completely free to choose how they operate. In
+          particular, the references to transparency in this section must be
+          rewritten.</li>
+      </ul>
+    </li>
+    <li><span class="green"> 1.1.6 Specify how the Spec Lead informs
+        the public of the Expert Group's transparency mechanisms and of any changes
+        to them. (Alex)</span> <strong>DONE</strong> </li>
+  </ul>
+</ul>
+<h4>
+  TODO for this section</h4>
+<ul><li></li>
+</ul>
+<h3>1.2 Executive Committee transparency</h3>
+<ul>
+  <li>Draft language required for Process Document
+      changes.
+    <ul>
+      <li> <span class="green">1.2.1 Address PMO/Oracle Legal review of license
+      terms (currently undocumented). (Mike, Patrick)</span> <strong>DONE</strong></li>
+      <li><strong>Recommendation:</strong>
+        <ul>
+          <li>Oracle legal drafts an opinion - presents to EC <strong>befor</strong><strong>e</strong> the
+            appropriate vote.</li>
+          <li>What if the license is in clear violation (eg, Apache license
+            for Spec license) and ECs vote to approve this? 
+            <ul>
+              <li>We'll face that problem if/when it occurs. </li>
+            </ul>
+          </li>
+          <li><span class="highlight">TODO: Patrick to review this suggestion
+          with legal.</span>
+            <ul>
+              <li>Need an SLA to guarantee turnaround (no unreasonable delay.)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><span class="green">1.2.2 Define a general-purpose escalation and
+          appeal process. (Eduardo)</span><strong> DONE</strong>
+          <ul>
+          <li>This mechanism may be used by Spec Leads, Expert Group members,
+          or JCP members to request the EC's assistance in resolving a dispute.</li>
+          <li>This should go in the General Requirements section.  </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h4>TODO for this section</h4>
+<ul>
+  <li></li>
+</ul>
+<h3>1.3 License  transparency</h3>
+<ul>
+  <li>We have draft language for Process Document
+      changes.
+    <ul>
+      <li> <span class="green">1.3.1 Require that when the license terms
+          associated with a JSR are significantly changed from the previous release,
+          this is explicitly called out. (Alex)</span><strong> DONE </strong>
+          <ul>
+          <li>We should also require change logs for the RI and TCK.
+          (Alex).                   </li>
+        </ul>
+      </li>
+      <ul>
+        <li>Note that strictly speaking the change log does not list all changes
+          "after Final Release" but only those since the previous release.
+            We should therefore change "after Final Release" to "since
+          the previous release."          </li>
+      </ul>
+      <ul>
+        <li><strong>Recommendation</strong> - in the <em>Process
+                Document</em> change:
+          <ul>
+            <li><strong>definition - Change Log</strong>: An area accessible
+                    from the Spec Page that lists all changes made to the Specification
+                    after Final Release. There are three sections: PROPOSED
+                    (changes not yet made to the Specification), ACCEPTED (changes
+                    made), and DEFERRED (change items to be considered in a
+              new JSR). </li>
+          </ul>
+        </li>
+        <li>To:
+          <ul>
+            <li><strong>definition - Change Log</strong>: An area accessible
+                    from the Spec Page that lists all changes made to the Specification,
+                    RI, TCK, and licenses since the previous release. There are
+                    six sections: PROPOSED (changes not yet made to the Specification),
+                    ACCEPTED (changes made to the Specification), DEFERRED (changes
+                    to be considered in a new JSR) and RI (changes made to the
+                    RI), TCK (changes made to the TCK) and LICENSING (changes
+              to licensing terms.)</li>
+          </ul>
+        </li>
+      </ul>
+    </ul>
+  </li>
+  <li>Draft language required for Process Document
+      changes.
+    <ul>
+      <li><span class="green">1.3.2 All
+        approved licenses must be offered "for ever." New (modified)
+        licenses may also be offered subsequently.
+         (Alex)</span>
+        <strong>DONE</strong>
+        <ul>
+          <li>NOTE: requiring licensees to adopt the latest TCK when updating
+            their product may force them to accept new and unreasonable terms.
+            <ul>
+              <li>Under these conditions, they should be permitted to take the
+              updated TCK on the original licensing terms</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h4>TODO for this section</h4>
+<ul>
+  <li></li>
+</ul>
+<h3>1.4 TCK transparency</h3>
+<ul>
+  
+  <li>Draft language required for <em>General Procedures </em>section
+      of the Process
+      Document
+    <ul><li><strong>Recommendations</strong>
+        <ul>
+          <li><span class="green">1.4.1 Publish lists of compatible implementations
+              so users can see who's compatible and (by implication) who's not.
+              (Patrick)</span>
+            <strong> DONE</strong>
+            <ul>
+              <li>Spec Leads must submit to the PMO (quarterly, and at every
+                Maintenance Release) a list of all devices/platforms that have
+                been certified as compatible.
+                <ul>
+                  <li>The PMO will publish these lists on jcp.org (and will publicise
+                    their existence.) </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Emphasize the value of compatibility &amp; the brand and the
+              risks of using incompatible implementations.
+            <ul>
+              <li>This is a marketing issue - cannot be solved by Process
+                Doc change.</li>
+            </ul>
+          </li>
+          <li><span class="green">1.4.2 TCK documentation must be publicly
+              available. (Patrick)</span> <strong>DONE</strong> </li>
+          <li><span class="green">1.4.3 TCK User's Guide must include
+                Compatibility Requirements. (Patrick)</span> <strong>DONE</strong>
+                <ul>
+                  <li>Change request submitted - not incorporated into
+                      the document </li>
+            </ul>
+          </li>
+          <li>Permit and encourage the discussion of individual TCK test results.
+            <ul>
+                <li>We permit this now for OpenJDK testing - any value to generalizing
+                  to commercial testing?                </li>
+                <li><span class="green">1.4.4 TCK licenses must permit
+                    implementors to discuss detailed TCK test results with
+                    their customers.  (Patrick).</span> <strong>DONE</strong></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><strong>Non-recommendations (reconsider these for JSR2)</strong>
+          <ul>
+            <li>Do not publish lists of incompatible implementations. </li>
+            <li>This is legally risky, and unnecessary (the list of incompatible
+              implementations can be derived from the list of compatible
+              implementations.)</li>
+            <li>Do not (yet) publish information about optional features that
+              are implemented.
+              <ul>
+                <li>This is too difficult to implement (what level of granularity
+                  would we choose?)</li>
+              </ul>
+            </li>
+            <li>Do not strengthen the TCK quality requirements (except for requiring
+              Compatibility Requirements)
+              <ul>
+                <li>Better to police 
+                  what we have now. </li>
+              </ul>
+            </li>
+            <li>Do not require more formal reporting requirements for conformance
+              claims.
+              <ul>
+                <li>Would require generalizing compatibility requirements.</li>
+              </ul>
+            </li>
+          </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h3>1.5 IP flow transparency </h3>
+<ul>
+  <li>We have draft language for Process Document
+      changes
+    <ul>
+      <li> <span class="green">1.5.1 Review, clarify, expand the brief
+      reference to anti-trust compliance.  (Eduardo)</span> <strong> DONE</strong></li>
+    </ul>
+  </li>
+  <li>Draft language required for Process Document:
+    <ul>
+          <li><span class="highlight">1.5.2 Clarify <em>Terms of Use</em> for
+              collaboration software used by Expert Groups. (Patrick, John)</span> <strong>IN
+              PROGRESS</strong>
+              <ul>
+                <li><strong>WE HAVE LANGUAGE - NEEDS FURTHER REVIEW </strong></li>
+                <li>Should ensure sufficient IP grants, but not impose requirements
+                  more strict than the JSPA </li>
+                <ul>
+                  <li><strong>Recommendation:</strong>
+                    <ul>
+                      <li>During the JSR submission process the Spec lead tells
+                        the PMO what collab software will be used. </li>
+                      <li>Oracle legal reviews the Terms Of Use and reports to
+                        the EC.</li>
+                      <li>EC approves, or requires an alternative.
+                        <ul>
+                          <li>If OK - add to approved list. If not, look elsewhere </li>
+                        </ul>
+                      </li>
+                      <li>We must ensure that java.net is on the <em>Approved
+                        List</em>. </li>
+                      <li>Must deal with possible changes to terms of use over
+                            time.
+                        <ul>
+                          <li>May need to review each time, even if previously
+                            reviewed. </li>
+                        </ul>
+                      </li>
+                      <li>We may need to delay to JSR2
+                        because of the legal effort required.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </ul>
+          </li>
+    </ul>
+  </li>
+</ul>
+<h3>1.6 Election transparency</h3>
+<ul>
+  <li><span class="green">1.6.1 PMO to organize a <em>Meet the candidates</em> teleconferences
+      and (if a suitable venue such as JavaOne is available) a public meeting.
+      (Patrick)</span>    <strong>DONE</strong> </li>
+</ul>
+<h4>TODO for this section</h4>
+<ul>
+  <li><span class="highlight">Patrick</span> to review with Legal.
+    <ul>
+      <li>
+      Initial feedback: we probably should not be <strong>approving</strong> Terms
+        of Use that are outside of our control - this would be a legal liability.</li>
+      <li>Need an alternative approach. Patrick to draft after further discussion
+        with Legal (will take longer than EDR to complete, but will do something
+        high-level before EDR) </li>
+    </ul>
+  </li>
+</ul>
+<h2><a name="Participation" id="Participation"></a>2. Participation</h2>
+<ul>
+  <li>2.1 Draft language required for <em>EC Standing
+        Rules</em>:
+        <ul>
+      <li><span class="green">2.1.1 Add semi-annual EC teleconferences that
+          all JCP members are free to attend and where the agenda is chosen from
+          topics suggested by the membership. (Eduardo)</span> <strong>DONE</strong></li>
+      <li><span class="green">2.1.2 Hold an annual open meeting at JavaOne.
+          (Eduardo)</span> <strong>DONE</strong></li>
+      <li><span class="green">2.1.3 Create a public alias (with archive)
+          for members to provide feedback to the ECs. (Eduardo)</span> <strong>DONE</strong></li>
+    </ul>
+  </li>
+    <li>2.2 Draft language required for Process Document:    
+      <ul>
+        <li>
+          <span class="green">2.2.1 No barriers to participation in Expert Groups.
+          (Eduardo)</span>
+          <strong>DONE</strong>
+          <ul>
+            <li>Requests to join EGs and the Spec Lead's responses, and decisions
+              to remove or replace EG members, must be made in public.</li>
+          </ul>
+        </li>
+        <li> <span class="green">2.2.2 Uncooperative or Unresponsive Expert
+            Group members. (Eduardo)</span><strong> DONE </strong>
+            <ul>
+            <li>2/3 majority of the EG can vote out an EG member (the company,
+                or the person representing that company.)
+              <ul>
+                <li>EG members should make a reasonable
+                    effort to resolve any such issues among themselves, for example
+                    by asking the member company to replace the representative.
+                  <ul>
+                    <li>NOTE: this paragraph is buggy - switches to Spec Lead
+                        in the middle. Duplicate it so we have one section dealing
+                      with Spec Leads and one with EG members.. </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><span class="green">2.2.3 Uncooperative, Unresponsive, or Inactive
+            Spec Lead. (Eduardo)</span>
+          <strong>DONE </strong>
+          <ul>
+            <li>2/3 of EG can vote to refer a problem to the PMO. The PMO may
+                ask the Spec Lead organization to replace the Spec Lead (individual)
+                or to seek an alternative Spec Lead.
+              <ul>
+                <li>If seeking an alternative Spec Lead, make sure this syncs
+                  with the <em>Transfer Ballot</em> language. </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><span class="green">2.2.4 Individual members' votes - how to avoid ballot-stuffing? 
+          (Eduardo)</span>
+          <strong>DONE</strong>
+          <ul>
+            <li><strong>Recommendation:</strong>
+                <ul>
+                  <li>Change this language in the Process Doc: "All JCP
+                    Members are eligible to vote in a ratification ballot subject
+                    to the provision that if a Member has majority-ownership
+                    of one or more other Members, then that group of Members
+                    will collectively have 1 vote." to  
+                    &#8220;...has majority-ownership of or is the employer of
+                    one or more other Members...&#8221;
+                    <ul>
+                      <li>NOTE: this doesn't deal with the JUG/JUG-member relationship.
+                        We think that's OK. </li>
+                      <li>It might be difficult for the PMO to enforce this
+                            in practice, but we would have the authority to do
+                            so if necessary or to take corrective action after
+                        the fact. </li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+            <li><span class="green">2.2.5 Need similar language to clarify
+                that employees of EC members are ineligible to run for election
+                as individuals. (Eduardo)</span> <strong>DONE</strong></li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+    <li>2.3 Draft language required for EC Standing Rules:
+      <ul>
+        <li><span class="green">2.3.1 Penalties for EC members who do not attend meetings. (Eduardo)</span>
+          <strong>DONE</strong>
+          <ul>
+            <li>Miss two meetings in a row - lose voting privileges until
+              you have attended two in a row.
+              <ul>
+                <li>Non-voting members don't count towards quorum.
+                  <ul>
+                    <li>Make sure we distinguish between voting and non-voting
+                      members elsewhere in the document. </li>
+                  </ul>
+                </li>
+                <li>EC may waive this penalty under exceptional circumstances. </li>
+              </ul>
+            </li>
+            <li>Miss 6 meetings in a row (or 5, or 4?) 
+              and you lose your seat.
+              <ul>
+                <li>EC may waive this penalty under exceptional circumstances.</li>
+              </ul>
+            </li>
+            <li>NOTE: we may want to consider attendance at f2f meetings separately
+              from attendance at teleconferences.
+              <ul>
+                <li>Does joining for a few hours by phone count as &quot;attending&quot;
+                  a f2f meeting? </li>
+              </ul>
+            </li>
+            <li>Need regular reports from the PMO to the EC and warnings to those
+              who approach the limits.</li>
+          </ul>
+        </li>
+        <li>2.3.2 Penalties for EC members who don't
+            vote? (Eduardo)
+            <strong>CANCELLED</strong>
+            <ul>
+            <li>Can't take away voting privileges. We could expel from EC in
+              extreme cases. (But if people aren't voting they're probably not
+              attending meetings either...) </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+</ul>
+<h4>TODO for this section</h4>
+<ul>
+  <li></li>
+</ul>
+<h2><a name="Agility" id="Agility"></a>3. Agility</h2>
+<ul>
+    <li>We have draft language for Process Document:
+      <ul>
+        <li><span class="green">3.1 Time-outs for inactive JSRs.
+          (Scott)</span>
+          <strong>DONE</strong>
+          <ul>
+            <li>See <em>JSR Renewal Ballot</em> suggestion from JSR 306.
+              <ul>
+                <li>Reduce the numbers:  12 months to Early Draft, 2 years to
+                  Public Draft Review, 3 years to Final
+                  Release.</li>
+                <li>Make sure this is sync'd with the <em>Dormant
+                  JSR</em> language.</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+    <li>Draft language required for Process Document:
+      <ul>
+        <li><span class="highlight">3.2 Clarify the Maintenance process. (Scott/Patrick)</span>
+          <strong>IN PROGRESS </strong>
+          <ul>
+            <li>Spec Leads want the EG to persist after Final Release. The
+              Process Doc states that the EG must disband.</li>
+            <li>This was presumably to ensure that IP vests in a clean manner.
+              Need legal confirmation            </li>
+            <li><strong>Recommendation:</strong> 
+                  <ul>
+                    <li>The  <em>Expert Group</em> must shut down and be
+                      re-formed  at each release.
+                      <ul>
+                        <li>Spec-lead will typically recruit from the previous
+                          EG, perhaps adding some new members. </li>
+                      </ul>
+                    </li>
+                    <li>We need to maintain the history of which members
+                      have been on the EG between its most recent re-formation
+                      and the next release.
+                      <ul>
+                        <li>These are the members who have potentially
+                          contributed IP.</li>
+                      </ul>
+                    </li>
+                    <li>Need legal check on this, but hopefully we can complete
+                      this for JSR1. </li>
+                  </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+  <ul>
+    <li><span class="highlight">3.3 Clean up Maintenance Release requirements.
+        Currently there's no absolute requirement for the Maintenance Lead to
+        actually deliver an updated spec, RI, and TCK.
+      (Scott/Patrick)</span>
+      <strong>IN PROGRESS </strong>
+      <ul>
+        <li> The process simply
+            says "the
+            maintenance changes will be considered final when the RI
+        and TCK are synchronized with the Specification." </li>
+        <li>We should require
+            a formal<strong><em> Maintenance Release</em></strong> just
+        as we do a Final Release.</li>
+        <li>What should the process be? 
+          <ul>
+            <li>For Maintenance Review we get a change log, an updated (supposedly-final)
+              Spec, an updated RI and TCK if necessary (or a statement explaining
+            why these aren't necessary.)</li>
+            <li>We post these for review. </li>
+            <li>At the end of the review period, if no objections by EC, approval
+            is automatic.
+              <ul>
+                <li>If there are objections, an  exception ballot is held. </li>
+              </ul>
+            </li>
+            <li>Alternatively, should we get rid of the exception ballot process
+              and always require an approval ballot, just as we do with Final Releases?                  
+              <ul>
+                <li><strong>Recommendation: yes </strong>                      </li>
+                <li>We could then harmonize the two processes (JSR development/release
+                  and Maintenance)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><span class="highlight">3.4 Clarify requirements for RI and TCK to be
+        posted within x weeks of Final Release and <strong><em>Maintenance Release</em></strong>.
+          (Scott)</span><strong> DONE </strong>
+          <ul>
+          <li>We post the Spec, but never the RI and TCK. We get a URL.</li>
+          <li>When we get a working URL the state becomes "final" -
+            IP vests at this point.</li>
+          <li>What if the URL is later broken - becomes non-functional?
+            <ul>
+              <li>PMO gives Spec/Maintenance lead 30 days to fix.</li>
+              <li> If no fix, revert to Proposed Final Draft or Maintenance
+              Review stage;  must complete the process again. </li>
+            </ul>
+            </li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<h4>TODO for this section</h4>
+<ul>
+  <li><span class="highlight">All</span>  further discussion on Scott's 
+    proposed changes for 3.2, 3.3, and 3.4 </li>
+</ul>
+<h2><a name="ECmerge" id="ECmerge"></a>4. Facilitating the EC merge</h2>
+    <ul>
+      <li> <span class="highlight">4.1 Move the definition
+        of two ECs from the  Process Doc to the Standing Rules to simplify
+        the process of merging the ECs later.(Mike/Patrick)</span> <strong>IN
+        PROGRESS</strong>
+        <ul>
+          <li>Is this really the problem we're trying to solve? We've agreed
+            that we can do a Merge as a separate JSR (decoupled from JSPA changes)</li>
+          <li>Isn't the real problem that we want to give advance notice to people
+            elected in 2011 that the situation may change in 2012 or 2013?  </li>
+        </ul>
+      </li>
+    </ul>
+    <h4>TODO for this section</h4>
+    <ul>
+      <li>Still much work to be done here </li>
+</ul>
+    <h2><a name="Cleanup" id="Cleanup"></a>5. Cleanup</h2>
+    <ul>
+      <li>Process Document changes      
+        <ul>
+          <li><span class="highlight">5.0 Correct typos and errors in Process
+          Document. (All, ongoing.)</span></li>
+          <li><span class="green">5.1 Remove Process Doc section 1.1.4
+            J2ME building blocks (Eduardo)</span>
+            <strong> DONE</strong>            </li>
+          <li><span class="green">5.2 Remove the ambiguity of the term <em>Spec
+                Lead</em> in
+            the Process Doc
+            (Eduardo)</span>
+            <strong>DONE</strong>                
+            .
+            <ul>
+              <li>Sometimes it refers to the Member
+                and sometimes to the person representing the Member and
+                leading the EG.</li>
+              <li>See Wayne Carr document for explanation.</li>
+            </ul>
+          </li>
+          <li><span class="green">5.3 Clarify that it's OK (even encouraged)
+              to submit multiple Early Draft Reviews (Patrick)</span> <strong>DONE </strong>
+              <ul>
+                <li>This
+              is how people can avoid being labeled Inactive under the current
+                  process.</li>
+              </ul>
+          </li>
+          <li><span class="green">5.4 Refactor the Process Document, moving
+              duplicated text from the &quot;stage&quot; sections to the General
+              Requirements section. (Patrick)</span> <strong>DONE</strong> </li>
+          <li><span class="highlight">5.5 Rename and refactor the &quot;stages&quot; around
+            which the document is structured (Patrick)</span><strong> IN PROGRESS </strong></li>
+          <li><span class="green">5.6 Define the process whereby employees
+              and those associated with organizations obtain (some) membership
+              privileges (Patrick)</span> <strong>DONE</strong>
+              <ul>
+                <li>Should we explain what it means to gain (some) membership
+                  privileges (eg, serving on JSRs) as a result of being employed
+                  by or associated with a Member company or organization?
+                  <ul>
+                    <li>If we had a formal term (perhaps <em>Associate Member</em>)
+                      this might make it easier to explain other parts of the
+                      process.
+                      <ul>
+                        <li>For example, the statement &quot;Any JCP member or employee
+                          of a JCP member can request to join an Expert Group
+                          at any time&quot; is not  complete, since it doesn't
+                          cover those who are associated with non-profit organizations.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+<h4>TODO for this section</h4>
+    <ul>
+      <li><span class="yellow">All:</span> provide feedback on 5.5.. </li>
+    </ul>
+    <p>&nbsp;</p>
+</body>
+</html>

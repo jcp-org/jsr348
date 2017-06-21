@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<title>JSR 348 Expert Group agenda: June 1, 2011</title>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+</head><body>
+<h1 align="center">JSR 348 Expert Group Meeting <br>
+1 June 2011</h1>
+
+<h2>Meeting details</h2>
+<ul>
+  <li>Date
+    &amp; Time
+    <ul>
+           <li>Wednesday June 1, 2011, 8:00 - 9:00 am Pacific time<br />
+      </li>
+    </ul>
+  </li>
+  <li>Teleconference logistics
+    <ul>
+        <li>+1 (866) 682-4770</li>
+      <li>Conference code: 627-9803
+        <ul>
+              <li>See email for the security code</li>
+        </ul>
+      </li>
+      <li>For global access numbers see <a href="http://www.intercall.com/oracle/access_numbers.htm">http://www.intercall.com/oracle/access_numbers.htm</a>
+            <ul>
+              <li>If those (free) numbers don't work, try +1 (408) 774-4073</li>
+            </ul>
+      </li>
+    </ul>
+  </li>
+  <li>WebEx<a href="https://jcp.webex.com/jcp/j.php?ED=144242297&amp;UID=491098062&amp;PW=NMDI4ZjE2NmQ4&amp;RT=MiM0" target="_blank"></a>
+ logistics      
+ <ul>
+   <li><a href="https://jcp.webex.com/" target="_blank">https://jcp.webex.com</a> (browse
+     from here) </li>
+        <li>No registration required (enter your name and email address) </li>
+        <li>See email for password</li>
+    </ul>
+  </li>
+</ul>
+<h2><strong>Agenda</strong></h2>
+<ul>
+  <li>Review <a href="http://java.net/downloads/jsr348/Meeting materials - pre Expert Group/2011-05-25-Minutes.html">minutes</a> from
+  last week's meeting </li>
+  <li>Plan for submission of proposal for Expert Group's working style to
+  full EG at June 7 EC meeting</li>
+  <li>Next steps </li>
+</ul>
+<p><br />
+</p>
+<blockquote>
+  <p><br />
+  </p>
+</blockquote>
+</body></html>
