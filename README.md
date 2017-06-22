@@ -20,7 +20,7 @@ We will therefore discuss our business in public, publish all of our working mat
 * To join the Observers' alias (to review and perhaps respond to Expert Group communications) go <a href="http://java.net/projects/jsr348/lists">here</a>. (You'll need a java.net login to subscribe.)
 * Visit the <a href="http://java.net/projects/jsr348/forums/General">discussion forum</a> to comment on the work of the Expert Group (we'd prefer that you use this rather than the Observer alias, to keep mail traffic down.)
 * For our meeting minutes and working documents, visit the <a href="http://java.net/projects/jsr348/pages/DocumentIndex">document archive</a>.
-* We use the <a href="http://java.net/jira/browse/JSR348">issue tracker</a> to record your comments and track issues.
+* We use the <a href="https://github.com/jcp-org/jsr348/issues">issue tracker</a> to record your comments and track issues.
 
 ![Java Community Process](./images/JSR-lifecycle.jpg)
 
